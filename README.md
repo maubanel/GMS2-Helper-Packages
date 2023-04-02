@@ -15,11 +15,15 @@ Click the link below for the package you would like. You will then download the 
 
 ##### `Step 2.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: 
 
+Select the package you downloaded to your computer.
+
 ![import selected package](images/importSS.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Press the <kbd>Add All</kbd> button then press the <kbd>Import</kbd> button.  Now you have all the items you need to take advantage of this package. 
 
 ![add import to project](images/addAllImport.png)
 
