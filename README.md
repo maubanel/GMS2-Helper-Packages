@@ -7,6 +7,9 @@ These are free packages that can be imported into your game and used on your pro
 ## Instructions
 Click the link below for the package you would like. You will then download the <filename>.yymps file.  Open the GameMaker project you want to use it in and select 
 
+![import package](images/toolsImportLocal.png)
+
+
 * Tested on GameMaker Studio 2022.11.175
 
 <br>
