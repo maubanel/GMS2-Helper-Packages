@@ -6,7 +6,16 @@
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+This package has one script `screen_shake` and one object `obj_shake`. 
+
+* Syntax:
+`screen_shake();
+
+* Optional arguments:
+* `_number_of_shakes`.  Default value is `15`.  This is how many time the camera changes postions for the shake.  It will make it looks like it shakes faster if the number is higher or lower is the number is lower.
+* `_shake_range`. Default value is `20`. A radius of pixels for how far the camera will move.  This increased the amoutn of displacement of the shake.
+* `_shake_length`.  Defautls to `0.5`.  This is the number of seconds the camera shakes before it stops.  
+
 
 <br>
 
