@@ -5,10 +5,13 @@
 These are free packages that can be imported into your game and used on your projects.  These all follow the attached LICENSE and are free to use.  I would appreciate if you credit maubygames if you do find them useful.
 
 ## Instructions
+
+##### `Step 1.`\|`PLTFRMR`|:small_blue_diamond:
 Click the link below for the package you would like. You will then download the <filename>.yymps file.  Open the GameMaker project you want to use it in and select **Tools | Import Local Package**.
 
 ![import package](images/toolsImportLocal.png)
 
+![](../images/line2.png)
 
 * Tested on GameMaker Studio 2022.11.175
 
