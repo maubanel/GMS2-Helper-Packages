@@ -144,5 +144,5 @@ Chapter introduction here.
 
 ![](../images/line.png)
 
-| [[home](../README.md#user-content-gms2-packages--table-of-contents)|
+| [home](../README.md#user-content-gms2-packages--table-of-contents)|
 |---|
