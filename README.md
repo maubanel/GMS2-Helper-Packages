@@ -13,6 +13,16 @@ Click the link below for the package you would like. You will then download the 
 
 ![](../images/line2.png)
 
+##### `Step 2.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: 
+
+![import selected package](images/importSS.png)
+
+![](../images/line2.png)
+
+##### `Step 3.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![add import to project](images/addAllImport.png)
+
 * Tested on GameMaker Studio 2022.11.175
 
 <br>
