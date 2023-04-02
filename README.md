@@ -40,15 +40,6 @@ Press the <kbd>Add All</kbd> button then press the <kbd>Import</kbd> button.  No
 ## License
 Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
 
-## Keyboard Controls
-* Left, Right,moves player in 2 directions
-* Space bar jumps
-
-## Gamepad Controls
-* Left analog stick moves player
-* Right trigger shoots
-* Start button begins the game
-
 </details>
 <details><summary>Dev Tips</summary>
 make git m="add commit message"
