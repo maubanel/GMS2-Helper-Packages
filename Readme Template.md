@@ -2,7 +2,7 @@
 
 ### Add Title
 
-<sub>[previous](../) • [home](../README.md#user-content-gms2-platformer) • [next](../)</sub>
+<sub>[home](../README.md#user-content-gms2-helper-packages)</sub>
 
 ![](../images/line3.png)
 
@@ -12,127 +12,127 @@ Chapter introduction here.
 
 ---
 
-##### `Step 1.`\|`PLTFRMR`|:small_blue_diamond:
+##### `Step 1.`\|`PCKGS`|:small_blue_diamond:
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: 
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`PLTFRMR`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`PLTFRMR`| :small_orange_diamond:
+##### `Step 5.`\|`PCKGS`| :small_orange_diamond:
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 6.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond:
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`PLTFRMR`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`PLTFRMR`| :large_blue_diamond:
+##### `Step 10.`\|`PCKGS`| :large_blue_diamond:
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 11.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: 
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 12.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 12.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 13.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`PLTFRMR`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 15.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond: 
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 16.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 17.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`PLTFRMR`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 19.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 20.`\|`PCKGS`| :large_blue_diamond: :large_blue_diamond:
 
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 21.`\|`PLTFRMR`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 21.`\|`PCKGS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 ![alt_text](images/.png)
 
@@ -144,5 +144,5 @@ Chapter introduction here.
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-gms2-platformer) | [next](../)|
-|---|---|---|
+| [[home](../README.md#user-content-gms2-helper-packages)|
+|---|
