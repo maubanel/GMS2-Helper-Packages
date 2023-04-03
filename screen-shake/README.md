@@ -12,9 +12,10 @@ This package has one script `screen_shake` and one object `obj_shake`.
 `screen_shake();
 
 * Optional arguments:
-* `_number_of_shakes`.  Default value is `15`.  This is how many time the camera changes postions for the shake.  It will make it looks like it shakes faster if the number is higher or lower is the number is lower.
-* `_shake_range`. Default value is `20`. A radius of pixels for how far the camera will move.  This increased the amoutn of displacement of the shake.
+* `_number_of_shakes`.  Default value is `10`.  This is how many time the camera changes postions for the shake.  It will make it looks like it shakes faster if the number is higher or lower is the number is lower.
+* `_shake_range`. Default value is `10`. A radius of pixels for how far the camera will move.  This increased the amoutn of displacement of the shake.
 * `_shake_length`.  Defautls to `0.5`.  This is the number of seconds the camera shakes before it stops.  
+* `_angle_range`.  Defaults to `0.3`°.  This is how many degrees the camera tilts.  Be careful about making this larger than 2 as it will be very disorienting and cause dizinness.
 
 
 <br>
@@ -31,19 +32,22 @@ Download [Screen Shake Package](../packages/screen_shake.yymps).
 
 ##### `Step 2.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+The simplest execution is to just call `screen_shake()` without passing any parameters (the default parameters are indicated above). THe shake will last for half a second, have a radius of 10 pixels, will shake 10 times and will have an angle tilt of 0.3°. You can trigger it based on any event, I wired it up to a button press just to test the functionality by pressing the space bar.
+
+![call screen_shake](images/callScreenShake.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice the screen shakes for half a second.
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+You can override the defaults by passing parameters to the function. 
+![camera shake in game](images/callScreenShake.png)
 
 ![](../images/line2.png)
 
