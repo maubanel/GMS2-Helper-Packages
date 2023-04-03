@@ -1,6 +1,6 @@
 ![](../images/line3.png)
 
-### Falling SNow
+### Falling Snow
 
 <sub>[home](../README.md#user-content-gms2-packages---table-of-contents)</sub>
 
