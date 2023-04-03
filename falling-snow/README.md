@@ -42,7 +42,7 @@ Drage particle snow into the room.
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar and enjoy the new snow!
 
-
+https://user-images.githubusercontent.com/5504953/229506142-0eee901e-3bdc-4dcd-97b7-cc8cd55964fe.mp4
 
 ![](../images/line.png)
 
