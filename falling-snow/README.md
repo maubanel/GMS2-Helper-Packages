@@ -34,7 +34,7 @@ Import into the game you want to use it in and select **Tools | Import Local Pac
 
 Drage particle snow into the room.
 
-![alt_text](images/downloadParticleSnow.png)
+![drag snow in room](images/dragSnow.png)
 
 ![](../images/line2.png)
 
