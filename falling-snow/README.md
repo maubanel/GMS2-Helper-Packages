@@ -1,12 +1,14 @@
 ![](../images/line3.png)
 
-### Add Title
+### Falling SNow
 
 <sub>[home](../README.md#user-content-gms2-packages---table-of-contents)</sub>
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+This uses the particle system in GameMaker to have a gentle snow fall from the top to the bottom third of the screen.  Go into the particle system and customize the settings. 
+
+`obj_particle_snow` needs to be dropped into a level, and voila, snow!
 
 <br>
 
@@ -14,17 +16,22 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`PCKGS`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Download the [particle snow Package](../packages/particle_snow.yymps) package.
+
+![download particle_snow package](images/downloadParticleSnow.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Import into the game you want to use it in and select **Tools | Import Local Package**. Press the <kbd>Add All</kbd> button then press the <kbd>Import</kbd> button. 
+
+![import effect](images/importEffect.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 
 ![alt_text](images/.png)
 
@@ -138,7 +145,7 @@ Chapter introduction here.
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Package: PACKAGE NAME"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Package: Falling Snow"> -->
 
 ![next up - ](images/banner.png)
 

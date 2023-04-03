@@ -35,6 +35,7 @@ Press the <kbd>Add All</kbd> button then press the <kbd>Import</kbd> button.  No
 ## GMS2 Packages - Table of Contents
 
 <kbd></kbd> &nbsp;&nbsp; [Screen Shake](screen-shake/README.md#user-content-screen-shake) <br>
+<kbd></kbd> &nbsp;&nbsp; [Falling Snow](falling-snow/README.md#falling-snow) <br>
 
 <!-- LICENSE -->
 ## License
