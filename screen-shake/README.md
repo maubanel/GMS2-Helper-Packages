@@ -24,7 +24,7 @@ This package has one script `screen_shake` and one object `obj_shake`.
 
 ##### `Step 1.`\|`PCKGS`|:small_blue_diamond:
 
-Download the [Screen Shake Package](../packages/screen_shake.yymps) package.
+Download the [screen shake](../packages/screen_shake.yymps) package.
 
 ![download screen_shake package](images/downloadPackage.png)
 
