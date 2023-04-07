@@ -154,6 +154,14 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 https://user-images.githubusercontent.com/5504953/230614892-a6ed23df-db6e-4a59-80fd-3aae5dcbb3a9.mp4
 
+![](../images/line2.png)
+
+##### `Step 16.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+You can also download this sample project if you want to see it in action: [Ball Bounce Sample](../sample-projects/BouncingBall.zip).
+
+![sample project](images/sampleProject.png)
+
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Package: Ball Bounce"> -->
