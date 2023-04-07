@@ -152,7 +152,7 @@ Now if we want collisions to not be elastic and to lose speed to heat/friction t
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have non-elastic collisions (but no friction in the game)
 
-
+https://user-images.githubusercontent.com/5504953/230614892-a6ed23df-db6e-4a59-80fd-3aae5dcbb3a9.mp4
 
 ![](../images/line.png)
 
