@@ -44,6 +44,14 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar and enjoy the new sno
 
 https://user-images.githubusercontent.com/5504953/229506142-0eee901e-3bdc-4dcd-97b7-cc8cd55964fe.mp4
 
+![](../images/line2.png)
+
+##### `Step 5.`\|`PCKGS`| :small_orange_diamond:
+
+You can also download this sample project if you want to see it in action: [Falling Snow Sample](../sample-projects/ScreenShakeSample.zip).
+
+![sample project](images/sampleProject.png)
+
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Package: Falling Snow"> -->
