@@ -104,7 +104,7 @@ Make a room and populate it with a variety of balls.
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice that the balls all have the same weight but do bounce correctly.
 
-
+https://user-images.githubusercontent.com/5504953/230612785-31c7829a-acee-4686-95ae-ccabfe87c667.mp4
 
 ![](../images/line2.png)
 
