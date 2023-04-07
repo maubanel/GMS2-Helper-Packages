@@ -42,8 +42,6 @@ Download the [ball bounce](../packages/scr_ball_bounce.yymps) package of scripts
 
 ![download screen_shake package](images/downloadPackage.png)
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: 
@@ -56,7 +54,7 @@ Create some different spritee sizes and name them appropriately.  Make sure the 
 
 ##### `Step 3.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/parentObject.png)
 
 ![](../images/line2.png)
 
