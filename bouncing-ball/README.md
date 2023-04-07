@@ -94,13 +94,17 @@ Now add an **End Step** event.  Call `ball_bounce_simple(obj_ball_parent)`. We a
 
 ##### `Step 8.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Make a room and populate it with a variety of balls. 
+
+![create room](images/simpleBallsInRoom.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice that the balls all have the same weight but do bounce correctly.
+
+
 
 ![](../images/line2.png)
 
