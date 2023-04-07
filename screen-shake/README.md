@@ -58,6 +58,13 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Y
 
 https://user-images.githubusercontent.com/5504953/229501118-5c76a026-ca53-40da-a83c-ebaeb6e764d4.mp4
 
+![](../images/line2.png)
+
+##### `Step 6.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond:
+
+You can also download this sample project if you want to see it in action: [Screen Shake Sample](../sample-projects/ScreenShakeSample.zip).
+
+![sample project](images/sampleProject.png)
 
 ![](../images/line.png)
 
