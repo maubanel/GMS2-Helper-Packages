@@ -166,7 +166,7 @@ Download the [ball bounce](../packages/scr_ball_bounce.yymps) package of scripts
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Package: PACKAGE NAME"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Package: Ball Bounce"> -->
 
 ![next up - ](images/banner.png)
 
