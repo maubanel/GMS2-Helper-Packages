@@ -48,7 +48,9 @@ Download the [ball bounce](../packages/scr_ball_bounce.yymps) package of scripts
 
 ##### `Step 2.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Create some different spritee sizes and name them appropriately.  Make sure the origin is centered horizontally and vertically or the scripts will look completely wrong.
+
+![three size sprites](images/threeSizeSprites.png)
 
 ![](../images/line2.png)
 
