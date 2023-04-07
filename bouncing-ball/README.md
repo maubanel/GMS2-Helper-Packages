@@ -102,7 +102,7 @@ Make a room and populate it with a variety of balls.
 
 ##### `Step 9.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice that the balls all have the same weight but do bounce correctly.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice that the balls all have the same weight but do bounce correctly. The yellow balls were marked with `false` so they leave the room and don't bounce off the sides.
 
 https://user-images.githubusercontent.com/5504953/230612785-31c7829a-acee-4686-95ae-ccabfe87c667.mp4
 
@@ -110,25 +110,33 @@ https://user-images.githubusercontent.com/5504953/230612785-31c7829a-acee-4686-9
 
 ##### `Step 10.`\|`PCKGS`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now lets use the more complex script which takes into account mass (how much mass an object has).  Remember momentum = mass x velocity so a heavier object provides greater velocity transfer when running into a lighter object.  We also have to include `restitution` or the game will crash.  We will leave it at `1` which makes the collisions elastic (no energy is lost on bounces). 
+
+![normal objects](images/ballNormalObjs.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now in the **End Step** event we will call `ball_bounce()` in the same way we did before.
+
+![call ball bounce script](images/ballBounceExpens.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now create a new room and populate them with the balls that take this more complex algorithm.
+
+![add new room for new balls](images/newRoom.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice that the ball's weight affects the results of the bouncing and there is more realism.
+
+
 
 ![](../images/line2.png)
 
