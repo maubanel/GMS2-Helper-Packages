@@ -54,25 +54,33 @@ Create some different spritee sizes and name them appropriately.  Make sure the 
 
 ##### `Step 3.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/parentObject.png)
+Create an object called `obj_ball_parent` with nothing in it.  All balls that we want to check for collisions will contain this parent.  This way we can have as many different size balls as we like!
+
+![parent object](images/parentObject.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now add a ball object for each sprite you have created.
+
+![add ball objects](images/threeBallObjects.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`PCKGS`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Add `obj_ball_parent` to all ball objects you have. This is used to ensure that they are checked for collision detection.
+
+![alt_text](images/objBallParent.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Add a **Create** event to each object and add the radius of the ball and pick a random diretion and speed.
+
+![add create with radius and physics](images/createEvent.png)
 
 ![](../images/line2.png)
 
