@@ -48,7 +48,7 @@ https://user-images.githubusercontent.com/5504953/229506142-0eee901e-3bdc-4dcd-9
 
 ##### `Step 5.`\|`PCKGS`| :small_orange_diamond:
 
-You can also download this sample project if you want to see it in action: [Falling Snow Sample](../sample-projects/ScreenShakeSample.zip).
+You can also download this sample project if you want to see it in action: [Falling Snow Sample](../sample-projects/FallingSnow.zip).
 
 ![sample project](images/sampleProject.png)
 
