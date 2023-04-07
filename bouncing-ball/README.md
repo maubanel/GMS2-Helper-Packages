@@ -86,7 +86,9 @@ Add a **Create** event to each object and add the radius of the ball and pick a 
 
 ##### `Step 7.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now add an **End Step** event.  Call `ball_bounce_simple(obj_ball_parent)`. We are using `speed` so the position is only updated **AFTER** the **Step** event.  The second boolean is whether the object bounces off the walls (edges of level) or not. If it is set to `false` the balls will leave the level. So if you don't include the boolean, it is set to `true` by default and will bounce off the sides.
+
+![call simple script](images/callBBSimple.png)
 
 ![](../images/line2.png)
 
