@@ -8,6 +8,7 @@
 
 This uses the particle system in GameMaker to have a gentle snow fall from the top to the bottom third of the screen.  Go into the particle system and customize the settings. 
 
+* Instructions:
 `obj_particle_snow` needs to be dropped into a level, and voila, snow!
 
 <br>

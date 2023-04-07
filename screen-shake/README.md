@@ -9,7 +9,7 @@
 This package has one script `screen_shake` and one object `obj_shake`. 
 
 * Syntax:
-`screen_shake();
+`screen_shake()`
 
 * Optional arguments:
 * `_number_of_shakes`.  Default value is `10`.  This is how many time the camera changes postions for the shake.  It will make it looks like it shakes faster if the number is higher or lower is the number is lower.
