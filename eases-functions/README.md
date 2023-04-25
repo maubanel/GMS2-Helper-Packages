@@ -7,15 +7,35 @@
 ![](../images/line3.png)
 
 **TLDR**<br/>
-Download [Eases Package](../packages/eases.yymps)
+Download [Eases Package](../packages/eases.yymps) to extend the usefullness of the [`lerp(a, b, amt)`](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/lerp.htm) function that is part of gamemaker. It includes these non linear functions:
 
+* `ease_in_2(time)`
+* `ease_in_3(time)`
+* `ease_in_4(time)`
+* `ease_out_2(time)`
+* `ease_out_3(time)`
+* `ease_out_4(time)`
+* `ease_in_out_2(time)`
+* `ease_in__out3(time)`
+* `ease_in_out_4(time)`
+* `bounce(time)`
+* `slam(time)`
+* `anticipate(time)`
+* `bounce_out(time)`
+* `bounce_in(time)`
+* `too_far(time)`
+* `ease_out_elastic(time)`
+
+A sample project can be played to see all the functions in action by downloading and running [Eases](../sample-projects/Eases.zip)
 <br>
 
 ---
 
 ##### `Step 1.`\|`PCKGS`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Download the [Eases](../packages/eases.yymps) packages and unzip the folder.  In the project you want to use it selet **Tools | Import Local Package** and select the **eases.yymps** file. Then import the `scr_eases` into your project which will contain all the functions you will need.
+
+![import eases package](images/importScrEases.png)
 
 ![](../images/line2.png)
 
