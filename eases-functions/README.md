@@ -100,13 +100,28 @@ image_alpha = lerp(1, 0, ease_out_4(lerp_time));
 
 ##### `Step 6.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+We can also have functions that create different curves to not only ease but have other animation effects.  This is a a possible bounce effect. So it looks like an object gets an immediate force then goes from 0 to 1 then back to 0 in a natural way like a ball bouncing.
+
+```
+image_alpha = lerp(1, 0, bounce(lerp_time));
+image_alpha = lerp(1, 0, bounce(lerp_time));
+image_alpha = lerp(1, 0, bounce(lerp_time));
+```
+
+![bounce function](images/Bounce.gif)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+This looks like a hammer hitting a spike then bouncing back up.  So a sudden impact reversed the animation.
 
-![alt_text](images/.png)
+```
+image_alpha = lerp(1, 0, slam(lerp_time));
+image_alpha = lerp(1, 0, slam(lerp_time));
+image_alpha = lerp(1, 0, slam(lerp_time));
+```
+
+![slam function](images/Slam.gif)
 
 ![](../images/line2.png)
 
