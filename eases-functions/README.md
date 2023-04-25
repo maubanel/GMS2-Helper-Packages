@@ -7,7 +7,7 @@
 ![](../images/line3.png)
 
 **TLDR**<br/>
-Download [Eases Package](../packages/eases.yymps) to extend the usefullness of the [`lerp(a, b, amt)`](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/lerp.htm) function that is part of gamemaker. It includes these non linear functions:
+Download [Eases Package](../packages/eases.yymps) to extend the usefullness of the [`lerp(a, b, amt)`](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/lerp.htm) function that is part of gamemaker. It includes these non linear functions. These were based on [Robert Penner's work](http://robertpenner.com/easing/penner_chapter7_tweening.pdf) and this excellent [GDC Talk](https://www.youtube.com/watch?v=mr5xkf6zSzk).
 
 * `ease_in_2(time)`
 * `ease_in_3(time)`
