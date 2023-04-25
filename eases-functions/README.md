@@ -70,13 +70,19 @@ image_alpha = lerp(1, 0, ease_in_4(lerp_time));
 
 ##### `Step 4.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+The reverse is true when we a car to come to a stop, it does not do it abruptly.  So if we graph it it the car decelerates gradually to a complete stop.  To do this we can alter the lerp_time variable by passing it to the `ease_out_2` function.  This algorithm multiplies the `lerp_time` by itself.
+
+image_alpha = lerp(1, 0, ease_out_2(lerp_time));
+image_alpha = lerp(1, 0, ease_out_3(lerp_time));
+image_alpha = lerp(1, 0, ease_out_4(lerp_time));
+
+![alt_text](images/EaseOut.gif)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`PCKGS`| :small_orange_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/EaseInOut.gif)
 
 ![](../images/line2.png)
 
