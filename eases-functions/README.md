@@ -60,9 +60,11 @@ In the below example we also have a rotation `image_angle` that goes from `0` to
 
 When we start a car and move from a stop the car has to accelerate or *ease into* getting to its full speed.  So if we graph it it accelerates gradually to full speed.  To do this we can alter the lerp_time variable by passing it to the `ease_in_2` function.  This algorithm multiplies the `lerp_time` by itself.  So when it is `0` it will multiply `0` by `0`.  This means is still starts with value *a*.  Half way through instead of being half way between **a** and **b** it will be .5 * .5 which will be `.25`.  So in a lerp we would be half way through ub in a `ease_in_2` will be only a quarter of the way between the numbers.
 
-```image_alpha = lerp(1, 0, ease_in_2(lerp_time));
+```
+image_alpha = lerp(1, 0, ease_in_2(lerp_time));
 image_alpha = lerp(1, 0, ease_in_3(lerp_time));
-image_alpha = lerp(1, 0, ease_in_4(lerp_time));```
+image_alpha = lerp(1, 0, ease_in_4(lerp_time));
+```
 
 ![alt_text](images/EaseIn.gif)
 
