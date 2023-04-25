@@ -94,7 +94,7 @@ image_alpha = lerp(1, 0, ease_out_3(lerp_time));
 image_alpha = lerp(1, 0, ease_out_4(lerp_time));
 ```
 
-![alt_text](images/EaseInOut.gif)
+![ease in out functions](images/EaseInOut.gif)
 
 ![](../images/line2.png)
 
@@ -103,8 +103,6 @@ image_alpha = lerp(1, 0, ease_out_4(lerp_time));
 We can also have functions that create different curves to not only ease but have other animation effects.  This is a a possible bounce effect. So it looks like an object gets an immediate force then goes from 0 to 1 then back to 0 in a natural way like a ball bouncing.
 
 ```
-image_alpha = lerp(1, 0, bounce(lerp_time));
-image_alpha = lerp(1, 0, bounce(lerp_time));
 image_alpha = lerp(1, 0, bounce(lerp_time));
 ```
 
@@ -117,8 +115,6 @@ This looks like a hammer hitting a spike then bouncing back up.  So a sudden imp
 
 ```
 image_alpha = lerp(1, 0, slam(lerp_time));
-image_alpha = lerp(1, 0, slam(lerp_time));
-image_alpha = lerp(1, 0, slam(lerp_time));
 ```
 
 ![slam function](images/Slam.gif)
@@ -127,87 +123,64 @@ image_alpha = lerp(1, 0, slam(lerp_time));
 
 ##### `Step 8.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+This adds some anticipation into the animation.  Sort of lifting the hammer up before hitting the nail.  This goes below 0 though as it goes back from the starting point before it heads to 1.
+
+```
+image_alpha = lerp(1, 0, anticipate(lerp_time));
+```
+
+![anticipate function](images/Anticipate.gif)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+When the object gets to 1 it bounces 3 times before coming to a stop at 1.
+
+```
+image_alpha = lerp(1, 0, bounce_out(lerp_time));
+```
+
+![bounce out function](images/BounceOut.gif)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`PCKGS`| :large_blue_diamond:
 
-![alt_text](images/.png)
+A ball jumps three times before making it to 1 (inverse of bounce_out)
+
+```
+image_alpha = lerp(1, 0, bounce_in(lerp_time));
+```
+
+![alt_text](images/BounceIn.gif)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+The animation goes past 1 before it comes back to get a sense of follow through/overlapping action.  
+
+```
+image_alpha = lerp(1, 0, too_far(lerp_time));
+```
+
+![alt_text](images/TooFar.gif)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Some stuttering overlapping action at the end.
+
+```
+image_alpha = lerp(1, 0, ease_out_elastic(lerp_time));
+```
+
+![alt_text](images/EaseOutElastic.gif)
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond: 
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`PCKGS`| :large_blue_diamond: :large_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`PCKGS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Package: PACKAGE NAME"> -->
 
