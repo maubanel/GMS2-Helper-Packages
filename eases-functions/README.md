@@ -88,9 +88,11 @@ image_alpha = lerp(1, 0, ease_out_4(lerp_time));
 
 Now if we combine the two we can get an ease in and ease out of the value between **a** and **b**. This allows for a smooth start and smooth stop.
 
-```image_alpha = lerp(1, 0, ease_out_2(lerp_time));
+```
+image_alpha = lerp(1, 0, ease_out_2(lerp_time));
 image_alpha = lerp(1, 0, ease_out_3(lerp_time));
-image_alpha = lerp(1, 0, ease_out_4(lerp_time));```
+image_alpha = lerp(1, 0, ease_out_4(lerp_time));
+```
 
 ![alt_text](images/EaseInOut.gif)
 
