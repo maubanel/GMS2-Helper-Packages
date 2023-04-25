@@ -41,7 +41,9 @@ Download the [Eases](../packages/eases.yymps) packages and unzip the folder.  In
 
 ##### `Step 2.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Lets first look at the existing function in gamemaker that performs a linear interpolation (*lerp* for short).  This changes a value **a** to value **b** by an **amount**.  If the amount is `0` then the value is **a**, if the amount is `1` is is the value **b**.  If it is in between it is a blend of the 2.  So in the 
+
+![lerping animation](images/Lerp.gif)
 
 ![](../images/line2.png)
 
