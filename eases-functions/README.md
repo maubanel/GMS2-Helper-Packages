@@ -72,9 +72,11 @@ image_alpha = lerp(1, 0, ease_in_4(lerp_time));```
 
 The reverse is true when we a car to come to a stop, it does not do it abruptly.  So if we graph it it the car decelerates gradually to a complete stop.  To do this we can alter the lerp_time variable by passing it to the `ease_out_2` function.  This algorithm multiplies the `lerp_time` by itself.
 
-```image_alpha = lerp(1, 0, ease_out_2(lerp_time));
+```
+image_alpha = lerp(1, 0, ease_out_2(lerp_time));
 image_alpha = lerp(1, 0, ease_out_3(lerp_time));
-image_alpha = lerp(1, 0, ease_out_4(lerp_time));```
+image_alpha = lerp(1, 0, ease_out_4(lerp_time));
+```
 
 ![alt_text](images/EaseOut.gif)
 
