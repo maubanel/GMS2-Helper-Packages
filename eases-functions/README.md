@@ -50,7 +50,7 @@ This changes a value **a** to value **b** by an **amount**.  If the amount is `0
 Moving our arrow from position a to b:
 `x = lerp(128, 769, lerp_time);`
 
-In the below example we also have a rotation `image_angle` that goes from `0` to `359`, two fades that go from `image_alpha` `1` to `0` and `0` to `1`, a color whose red channel goes from `0` to `255` and a scale that goes up 4 times.  This is done  
+In the below example we also have a rotation `image_angle` that goes from `0` to `359`, two fades that go from `image_alpha` `1` to `0` and `0` to `1`, a color whose red channel goes from `0` to `255` and a scale that goes up 4 times.  This is moves all the different variables in a linear manner where the object moves an a consistent speed. 
 
 ![lerping animation](images/Lerp.gif)
 
@@ -58,7 +58,13 @@ In the below example we also have a rotation `image_angle` that goes from `0` to
 
 ##### `Step 3.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+When we start a car and move from a stop the car has to accelerate or *ease into* getting to its full speed.  So if we graph it it accelerates gradually to full speed.  To do this we can alter the lerp_time variable by passing it to the `ease_in_2` function.  This algorithm multiplies the `lerp_time` by itself.  So when it is `0` it will multiply `0` by `0`.  This means is still starts with value *a*.  Half way through instead of being half way between **a** and **b** it will be .5 * .5 which will be `.25`.  So in a lerp we would be half way through ub in a `ease_in_2` will be only a quarter of the way between the numbers.
+
+image_alpha = lerp(1, 0, ease_in_2(lerp_time));
+image_alpha = lerp(1, 0, ease_in_3(lerp_time));
+image_alpha = lerp(1, 0, ease_in_4(lerp_time));
+
+![alt_text](images/EaseIn.gif)
 
 ![](../images/line2.png)
 
