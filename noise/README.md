@@ -85,6 +85,16 @@ https://user-images.githubusercontent.com/5504953/234905980-15dbd622-302a-438e-8
 
 Here is an example of cheap perlin noise being used in practical ways. 
 
+The first example is shifting the result of perlin noise from a range of `0` to `1` to a range of `-1` to `1`.  We do this by multiply the noise function by 2 (extending the range to 0 and 2) then subtracting 1 from it.  We then multiply it by a 100 to get a range of +- 100 pixlels on the y position of the ship.
+
+The second example is adjusting the alpha to make it look like it is a broken light that is flashing eratically.  We pass the values `cheap_perlin_noise(i, 2048, 16, 4, true, .2)`.  We are getting values from `0` to `2048` ending on the same value so it loops seamlessly.  We have `16` harmonics, a random seed of `4` and smoothing between points.  We set the `harmonic` at `.2` to really accentuate the range as we want a large fluctation in this broken light.
+
+The next example is a wheel that is turning eratically from one angle to another.  We use the noise function to affect the image_nalge and scale the range between `0` and `359`.
+
+The blend function chnages the hue of an hsv value changing the hue of a light over time.
+
+We then pass two separate noises with different seeds into the x and y scale of the circle allowing for hte scale to change in interesting ways.
+
 ![perlin noise examples](images/PerlinExamples.gif)
 
 ![](../images/line2.png)
