@@ -99,9 +99,6 @@ We then pass two separate noises with different seeds into the x and y scale of 
 
 ![perlin noise examples](images/PerlinExamples.gif)
 
-![](../images/line2.png)
-
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Package: PACKAGE NAME"> -->
