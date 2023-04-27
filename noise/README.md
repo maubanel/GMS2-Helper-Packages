@@ -22,7 +22,7 @@ Download the [noise](../packages/noise.yymps) package. Notice that you get three
 
 ##### `Step 2.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: 
 
-We can call `rng_var()` and if we pass no parameters then we will just get a random number that changes over time.  This function returns a real number between `0` and `1`. This example is picking a random y position using this noise function.  Notice that it is constantly changing and quite random.
+We can call `rng_var()` and if we pass no parameters then we will just get a random number that changes over time.  This function returns a real number between `0` and `1`. This example is picking a random y position using this noise function.  Notice that it is constantly changing and quite random. 
 
 ![rng_var()](images/rng_var.gif)
 
@@ -46,9 +46,9 @@ We can call `rng_var()` and if we pass no parameters then we will just get a ran
 
 ##### `Step 5.`\|`PCKGS`| :small_orange_diamond:
 
-`rng_var_val(value)` is very similar except it returns a real number range between `0` to `val` if val is positive and `val` to `0` if val is negative. 
+`rng_var_val(value)` is very similar except it returns a real number range between `0` to `val` if val is positive and `val` to `0` if val is negative. The below example is randomly selecting from `rng_var(-10)` which is picking a fractional number between -10 and 0.
 
-![rng_var_range(start, end)](images/rng_val.gif)
+![rng_var_range(start, end)](images/rng_value.gif)
 
 ![alt_text](images/.png)
 
