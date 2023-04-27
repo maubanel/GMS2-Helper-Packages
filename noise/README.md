@@ -14,6 +14,10 @@ Noise and random numbers are very valuable in video games. We will cover using n
 
 ##### `Step 1.`\|`PCKGS`|:small_blue_diamond:
 
+Download the [noise](../packages/noise.yymps) package. Notice that you get three functions. 
+
+![download particle_snow package](images/noise_functions.png)
+
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
