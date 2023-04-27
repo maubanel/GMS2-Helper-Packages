@@ -1,12 +1,12 @@
 ![](../images/line3.png)
 
-### Add Title
+### Noise
 
 <sub>[home](../README.md#user-content-gms2-packages---table-of-contents)</sub>
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+Noise and random numbers are very valuable in video games.
 
 <br>
 
