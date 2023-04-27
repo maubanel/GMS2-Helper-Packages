@@ -62,13 +62,14 @@ This can become powerful as we can recall the same random number sequence at wil
 
 ##### `Step 7.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+https://user-images.githubusercontent.com/5504953/234905980-15dbd622-302a-438e-8b85-4abe0701f6a8.mp4
+
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+https://user-images.githubusercontent.com/5504953/234906002-dc16eb21-2ccb-4b86-b818-3f6c5921df46.mp4
 
 ![](../images/line2.png)
 
