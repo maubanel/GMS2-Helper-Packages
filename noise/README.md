@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Noise and random numbers are very valuable in video games.
+Noise and random numbers are very valuable in video games. We will cover using noise as a random number ganerator.  This is based on this excellent [GDC talk](https://www.youtube.com/watch?v=LWFzPP8ZbdU). This allows us a bit more control over how we use and reuse random numbers. We also have a fast implementation of a take on value/perlin noise. 
 
 <br>
 
