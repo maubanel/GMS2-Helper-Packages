@@ -62,7 +62,7 @@ This can become powerful as we can recall the same random number sequence at wil
 
 ##### `Step 7.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-In the below page you can see that if we just use noise and map it to the `y` axis we get random distribution and very chaotic transformation along the x axis.  It we use a smooth noise function like `cheap_perlin_noise()` we can get a more gradual transition.  
+In the below example of noise you can see that if we just use noise and map it to the `y` axis we get random distribution and very chaotic transformation along the x axis.  It we use a smooth noise function like `cheap_perlin_noise()` we can get a more gradual transition.  
 
 cheap_perlin_noise(count, total, octaves, [seed], [smooth], [harmonic])
 
