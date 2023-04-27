@@ -64,7 +64,7 @@ This can become powerful as we can recall the same random number sequence at wil
 
 In the below example of noise you can see that if we just use noise and map it to the `y` axis we get random distribution and very chaotic transformation along the x axis.  It we use a smooth noise function like `cheap_perlin_noise()` we can get a more gradual transition.  
 
-cheap_perlin_noise(count, total, octaves, [seed], [smooth], [harmonic])
+`cheap_perlin_noise(count, total, octaves, [seed], [smooth], [harmonic])`
 
 The first parameter we pass is the current index into the  `count` parameter.  This should start at `0` and if you want it to tile horizontally needs end at a power of `2`.  For example 2, 4, 8, 16, 32, 64, 128, 256 etc...  This way the first value and last value of noise will be the same so it will tile perfectly.  If not then there would be a hitch if you loop back to the 0 count.  This value should be a whole number and not fractional.  
 
