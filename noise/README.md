@@ -18,8 +18,6 @@ Download the [noise](../packages/noise.yymps) package. Notice that you get three
 
 ![download noise package](images/noise_functions.png)
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: 
@@ -32,7 +30,9 @@ We can call `rng_var()` and if we pass no parameters then we will just get a ran
 
 ##### `Step 3.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+`rng_var_norm()` is very similar except it returns a range from `-1` to `1`.
+
+![rng_var_norm()](images/rng_var_norm.gif)
 
 ![](../images/line2.png)
 
