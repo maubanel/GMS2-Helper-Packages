@@ -62,6 +62,20 @@ This can become powerful as we can recall the same random number sequence at wil
 
 ##### `Step 7.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+In the below page you can see that if we just use noise and map it to the `y` axis we get random distribution and very chaotic transformation along the x axis.  It we use a smooth noise function like `cheap_perlin_noise()` we can get a more gradual transition.  
+
+cheap_perlin_noise(count, total, octaves, [seed], [smooth], [harmonic])
+
+The first parameter we pass is the current index into the  `count` parameter.  This should start at `0` and if you want it to tile horizontally needs end at a power of `2`.  For example 2, 4, 8, 16, 32, 64, 128, 256 etc...  This way the first value and last value of noise will be the same so it will tile perfectly.  If not then there would be a hitch if you loop back to the 0 count.  This value should be a whole number and not fractional.  
+
+The second input are how many octagvs.  With one octave there is a single point, the begining and the end.  If it is tiling then it will be a straigh line.  Adding an octive puts a point in the middle and split the line tino 2 allowing for another harmonic.  An octovae of 3 adds to more points spliting it into 4 line segments and an octave of 4 splits it to 8 segments and so on.  So we continue to add a point until we can no longer add points.
+
+The third parameter is optional and chnages the seed so it will randomly pick different points along the ocatves changing the shape of the curve.
+
+The fourth parameter is to add smoothing (optional).  It defaults to `true`.  This makes the joints between lines curves to smoothly ease in and out of them.  If it is `false` you will get jagged sharp transitions.
+
+The last value is `harmonic` and defaults to `.75`.  You can use a range between `.1` and `2`.  A value of `2` will reduce the influcence of every other octave by half of the prior.  So each octave creates a smaller delta.  This is nice when you want a fractal representation.  A value of `.1` will increase the amount of each octave's influence creating a more sudden transition.
+
 https://user-images.githubusercontent.com/5504953/234905980-15dbd622-302a-438e-8b85-4abe0701f6a8.mp4
 
 
@@ -69,6 +83,7 @@ https://user-images.githubusercontent.com/5504953/234905980-15dbd622-302a-438e-8
 
 ##### `Step 8.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Here 
 https://user-images.githubusercontent.com/5504953/234906002-dc16eb21-2ccb-4b86-b818-3f6c5921df46.mp4
 
 ![](../images/line2.png)
