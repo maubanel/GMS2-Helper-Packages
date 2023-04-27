@@ -14,9 +14,9 @@ Noise and random numbers are very valuable in video games. We will cover using n
 
 ##### `Step 1.`\|`PCKGS`|:small_blue_diamond:
 
-Download the [noise](../packages/noise.yymps) package. Notice that you get three functions. 
+Download the [noise](../packages/noise.yymps) package. Notice that you get three functions. It comes with a range of random noise functions in `scr_noise_rng`.  There is a a `cheap_perlin_noise()` function to create structured noise.  It used `scr_ease` to smooth out the transitions between points.
 
-![download particle_snow package](images/noise_functions.png)
+![download noise package](images/noise_functions.png)
 
 ![alt_text](images/.png)
 
