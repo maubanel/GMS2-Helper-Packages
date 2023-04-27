@@ -83,7 +83,8 @@ https://user-images.githubusercontent.com/5504953/234905980-15dbd622-302a-438e-8
 
 ##### `Step 8.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Here 
+Here is an example of cheap perlin noise being used in practical ways. 
+
 https://user-images.githubusercontent.com/5504953/234906002-dc16eb21-2ccb-4b86-b818-3f6c5921df46.mp4
 
 ![](../images/line2.png)
