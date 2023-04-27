@@ -46,7 +46,7 @@ We can call `rng_var()` and if we pass no parameters then we will just get a ran
 
 ##### `Step 5.`\|`PCKGS`| :small_orange_diamond:
 
-`rng_var_val(value)` is very similar except it returns a real number range between `0` to `val` if val is positive and `val` to `0` if val is negative. The below example is randomly selecting from `rng_var(-10)` which is picking a fractional number between -10 and 0.
+`rng_var_val(value)` is very similar except it returns a real number range between `0` to `val` if val is positive and `val` to `0` if val is negative. The below example is randomly selecting from `rng_var(-15)` which is picking a fractional number between 0 and 15.
 
 ![rng_var_range(start, end)](images/rng_value.gif)
 
