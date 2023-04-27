@@ -68,7 +68,7 @@ cheap_perlin_noise(count, total, octaves, [seed], [smooth], [harmonic])
 
 The first parameter we pass is the current index into the  `count` parameter.  This should start at `0` and if you want it to tile horizontally needs end at a power of `2`.  For example 2, 4, 8, 16, 32, 64, 128, 256 etc...  This way the first value and last value of noise will be the same so it will tile perfectly.  If not then there would be a hitch if you loop back to the 0 count.  This value should be a whole number and not fractional.  
 
-The second input are how many octagvs.  With one octave there is a single point, the begining and the end.  If it is tiling then it will be a straigh line.  Adding an octive puts a point in the middle and split the line tino 2 allowing for another harmonic.  An octovae of 3 adds to more points spliting it into 4 line segments and an octave of 4 splits it to 8 segments and so on.  So we continue to add a point until we can no longer add points.
+The second input are how many octaves.  With one octave there is a single point, the begining and the end.  If it is tiling then it will be a straigh line.  Adding an octive puts a point in the middle and split the line tino 2 allowing for another harmonic.  An octovae of 3 adds to more points spliting it into 4 line segments and an octave of 4 splits it to 8 segments and so on.  So we continue to add a point until we can no longer add points.
 
 The third parameter is optional and chnages the seed so it will randomly pick different points along the ocatves changing the shape of the curve.
 
