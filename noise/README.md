@@ -50,13 +50,13 @@ We can call `rng_var()` and if we pass no parameters then we will just get a ran
 
 ![rng_var_range(start, end)](images/rng_value.gif)
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+This can become powerful as we can recall the same random number sequence at will to create more complex structures.  In the case below I am passing `rng_rand()`, `rng_rand_norm()`, `rng_rand_range()` and `rng_rand_val` the same seed.  So every frame it is picking the exact same `y` value and even though it is random, we are refering to the same index over and over again so the noise no longer moves like it did above.
+
+![alt_texadd indexes into noise functiont](images/rng_indexes.gif)
 
 ![](../images/line2.png)
 
