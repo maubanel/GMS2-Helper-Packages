@@ -38,7 +38,7 @@ We can call `rng_var()` and if we pass no parameters then we will just get a ran
 
 ##### `Step 4.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-`rng_var_range(start, end)` is very similar except it returns a range from the parameters passed `start` to `end`. For this to work the start value needs to be smaller than the end value.
+`rng_var_range(start, end)` is very similar except it returns a range from the parameters passed `start` to `end`. For this to work the start value needs to be smaller than the end value. The below example is randomly selecting from `rng_var(-20, -10)` which is picking a fractional number between -20 and -10.
 
 ![rng_var_range(start, end)](images/rng_range.gif)
 
