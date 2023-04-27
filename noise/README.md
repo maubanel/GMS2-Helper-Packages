@@ -14,7 +14,7 @@ Noise and random numbers are very valuable in video games. We will cover using n
 
 ##### `Step 1.`\|`PCKGS`|:small_blue_diamond:
 
-Download the [noise](../packages/noise.yymps) package. Notice that you get three functions. It comes with a range of random noise functions in `scr_noise_rng`.  There is a a `cheap_perlin_noise()` function to create structured noise.  It used `scr_ease` to smooth out the transitions between points.
+Download the [noise](../packages/noise.yymps) package. Notice that you get three functions. It comes with a range of random noise functions in `scr_noise_rng`.  There is a a `cheap_perlin_noise()` function to create structured noise.  It used `scr_ease` to smooth out the transitions between points used by the cheap_perlin_noise function.
 
 ![download noise package](images/noise_functions.png)
 
@@ -24,7 +24,9 @@ Download the [noise](../packages/noise.yymps) package. Notice that you get three
 
 ##### `Step 2.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+We can call `rng_var()` and if we pass no parameters then we will just get a random number that changes over time.  This function returns a real number between `0` and `1`. This example is picking a random y position using this noise function.  Notice that it is constantly changing and quite random.
+
+![rng_var()](images/rng_var.gif)
 
 ![](../images/line2.png)
 
