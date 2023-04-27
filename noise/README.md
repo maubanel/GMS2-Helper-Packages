@@ -40,11 +40,15 @@ We can call `rng_var()` and if we pass no parameters then we will just get a ran
 
 `rng_var_range(start, end)` is very similar except it returns a range from the parameters passed `start` to `end`. For this to work the start value needs to be smaller than the end value.
 
-![rng_var_range(start, end)](images/rng_range.png)
+![rng_var_range(start, end)](images/rng_range.gif)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`PCKGS`| :small_orange_diamond:
+
+`rng_var_val(value)` is very similar except it returns a real number range between `0` to `val` if val is positive and `val` to `0` if val is negative. 
+
+![rng_var_range(start, end)](images/rng_val.gif)
 
 ![alt_text](images/.png)
 
