@@ -46,7 +46,11 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 4.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-You can override the defaults by passing parameters to the function. In this case we have shake that will happen 20 times, with a radius of 20 pixels a length of 1 second and an angle different of up to 2°.
+You can override the defaults by passing parameters to the function. 
+
+`screen_shake(cheap, shake_amount, shake_rot_amount, shake_length, octave, harmonic, smooth, seed)`
+
+There are two techniques, one which is very efficient.
 
 ![camera shake in game](images/customParams.png)
 
