@@ -40,7 +40,7 @@ The simplest execution is to just call `screen_shake()` without passing any para
 
 ##### `Step 3.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice the screen shakes for half a second.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice the screen shakes for a second.
 
 https://user-images.githubusercontent.com/5504953/229501048-747658a9-3d17-4aeb-bf04-2672f32ae269.mp4
 
