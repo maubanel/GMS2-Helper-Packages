@@ -56,13 +56,15 @@ The simplest execution is to just call `screen_shake()` without passing any para
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice the screen shakes for a second.
 
-![default camera shake in game](images/DefaultSS.gif)
-
-
+https://user-images.githubusercontent.com/5504953/235301006-c40e2b4d-4876-4d03-a0fd-ef04a382be1c.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`PCKGS`| :small_orange_diamond:
+
+
+https://user-images.githubusercontent.com/5504953/235301013-a2aa0c9b-17ff-4f73-858c-a411cc73145b.mp4
+
 
 
 ![](../images/line2.png)
