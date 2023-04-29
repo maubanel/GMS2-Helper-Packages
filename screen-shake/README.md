@@ -108,8 +108,6 @@ The `harmonic` parameter is only for when we are using lerping when `cheap` is s
 
 https://user-images.githubusercontent.com/5504953/235303002-3c01ee74-f6c2-47f5-996f-be84607f2a31.mp4
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`PCKGS`| :large_blue_diamond:
@@ -119,8 +117,6 @@ https://user-images.githubusercontent.com/5504953/235303002-3c01ee74-f6c2-47f5-9
 The `smooth` parameter onlh works when `cheap` is set to `false`.  It smooths out the transitions between octaves.  So either it is a sudden change or a smoothed curve.
 
 https://user-images.githubusercontent.com/5504953/235303018-38e4eeaa-16d0-4076-9ff0-018fdab9a495.mp4
-
-![alt_text](images/.png)
 
 ![](../images/line2.png)
 
