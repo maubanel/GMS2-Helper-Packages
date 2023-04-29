@@ -36,7 +36,7 @@ This packages comes with multiple files.  You should have an **obj_shake** objec
 
 * **cheap_perlin_noise**
 * **get_active_camera**
-* **scr_easaes**
+* **scr_eases**
 * **scr_noise_rng**
 * **screen_shake**
 
@@ -54,7 +54,7 @@ The simplest execution is to just call `screen_shake()` without passing any para
 
 ##### `Step 4.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice the screen shakes for a second.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice the screen shakes for a second. 
 
 https://user-images.githubusercontent.com/5504953/235301006-c40e2b4d-4876-4d03-a0fd-ef04a382be1c.mp4
 
@@ -62,10 +62,12 @@ https://user-images.githubusercontent.com/5504953/235301006-c40e2b4d-4876-4d03-a
 
 ##### `Step 5.`\|`PCKGS`| :small_orange_diamond:
 
+`screen_shake(cheap, shake_amount, shake_rot_amount, shake_length, octave, harmonic, smooth, seed)`
+We can customize the shake.  The first parameter is `cheap`.  This switches between a computational less expensive algorithm.  If set to false it just randomly picks a new position and moves to it at the frame_rate the game is set to. If you just need the *cheap* noise you can delete the `cheap_perlin_noise)()` and `scr_eases()` scripts.
+
+If you keep it at the more expensive method it needs to be set a its default of `true`. This will allow you to quickly ease inbetween random points with tweening.  This allows for more realistic and smoother noise.
 
 https://user-images.githubusercontent.com/5504953/235301013-a2aa0c9b-17ff-4f73-858c-a411cc73145b.mp4
-
-
 
 ![](../images/line2.png)
 
