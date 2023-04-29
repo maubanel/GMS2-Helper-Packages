@@ -32,13 +32,16 @@ Download the [screen shake](../packages/screen_shake.yymps) package.
 
 ##### `Step 2.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: 
 
-The simplest execution is to just call `screen_shake()` without passing any parameters (the default parameters are indicated above). THe shake will last for half a second, have a radius of 10 pixels, will shake 10 times and will have an angle tilt of 0.3°. You can trigger it based on any event, I wired it up to a button press just to test the functionality by pressing the space bar.
-
-![call screen_shake](images/callScreenShake.png)
+![files with package](images/files.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+The simplest execution is to just call `screen_shake()` without passing any parameters (the default parameters are indicated above). THe shake will last for half a second, have a radius of 10 pixels, will shake 10 times and will have an angle tilt of 0.3°. You can trigger it based on any event, I wired it up to a button press just to test the functionality by pressing the space bar.
+
+![call screen_shake](images/callScreenShake.png)
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice the screen shakes for a second.
 
