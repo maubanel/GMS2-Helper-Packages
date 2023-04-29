@@ -106,6 +106,8 @@ https://user-images.githubusercontent.com/5504953/235302236-68e20e43-bdeb-4820-9
 
 The `harmonic` parameter is only for when we are using lerping when `cheap` is set to `false`.  It affects how much each octave effects the curve.  For a numnber greater than `1` it decreases the effect of each octave and for a setting of less than `1` it decreases it.  I would not exceed a range of `.1` to `2` but it is personal choice.
 
+https://user-images.githubusercontent.com/5504953/235303002-3c01ee74-f6c2-47f5-996f-be84607f2a31.mp4
+
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
@@ -115,6 +117,8 @@ The `harmonic` parameter is only for when we are using lerping when `cheap` is s
 `screen_shake(cheap, shake_amount, shake_rot_amount, shake_length, octave, harmonic, smooth, seed)`
 The `smooth` parameter onlh works when `cheap` is set to `false`.  It smooths out the transitions between octaves.  So either it is a sudden change or a smoothed curve.
 
+https://user-images.githubusercontent.com/5504953/235303018-38e4eeaa-16d0-4076-9ff0-018fdab9a495.mp4
+
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
@@ -123,11 +127,13 @@ The `smooth` parameter onlh works when `cheap` is set to `false`.  It smooths ou
 
 The final parameter of `seed` changes the random points in the curve. So if you don't like the way it shakes but all the other parameters are how you like it, change the seed until you find that right one!
 
+https://user-images.githubusercontent.com/5504953/235303027-ae5c1e89-1c36-4140-b7fb-9aec5ae4cd72.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: 
 
-You can also download this sample project if you want to see it in action: [Screen Shake Sample](../sample-projects/ScreenShakeSample.zip).
+You can also download this sample project if you want to see it in action: [Screen Shake Sample](../sample-projects/ScreenShakeSample.zip). Press the <kbd>Tab</kbd> button to change rooms.
 
 ![sample project](images/sampleProject.png)
 
