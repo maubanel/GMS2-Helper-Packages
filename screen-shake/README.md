@@ -115,6 +115,7 @@ https://user-images.githubusercontent.com/5504953/235303002-3c01ee74-f6c2-47f5-9
 ##### `Step 10.`\|`PCKGS`| :large_blue_diamond:
 
 `screen_shake(cheap, shake_amount, shake_rot_amount, shake_length, octave, harmonic, smooth, seed)`
+
 The `smooth` parameter onlh works when `cheap` is set to `false`.  It smooths out the transitions between octaves.  So either it is a sudden change or a smoothed curve.
 
 https://user-images.githubusercontent.com/5504953/235303018-38e4eeaa-16d0-4076-9ff0-018fdab9a495.mp4
