@@ -73,6 +73,16 @@ https://user-images.githubusercontent.com/5504953/235301013-a2aa0c9b-17ff-4f73-8
 
 ##### `Step 6.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond:
 
+`screen_shake(cheap, shake_amount, shake_rot_amount, shake_length, octave, harmonic, smooth, seed)`
+You can increase the intensity of the shake by displacing the camera by a greater amount.  It is set to a radius in pixles for the `shake_amount` parameter.  The larger the number the more the camera will shake.
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+![](../images/line2.png)
+
 You can also download this sample project if you want to see it in action: [Screen Shake Sample](../sample-projects/ScreenShakeSample.zip).
 
 ![sample project](images/sampleProject.png)
