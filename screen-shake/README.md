@@ -32,6 +32,15 @@ Download the [screen shake](../packages/screen_shake.yymps) package.
 
 ##### `Step 2.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: 
 
+This packages comes with multiple files.  You should have an **obj_shake** object and the following scripts:
+
+**cheap_perlin_noise**
+**get_active_camera**
+**scr_easaes**
+**scr_noise_rng**
+**screnn_shake**
+
+There are mostly helper functions and you can do everything through the `screen_shake()` function.
 ![files with package](images/files.png)
 
 ![](../images/line2.png)
