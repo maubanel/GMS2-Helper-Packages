@@ -74,7 +74,7 @@ https://user-images.githubusercontent.com/5504953/235301013-a2aa0c9b-17ff-4f73-8
 ##### `Step 6.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond:
 
 `screen_shake(cheap, shake_amount, shake_rot_amount, shake_length, octave, harmonic, smooth, seed)`
-You can increase the intensity of the shake by displacing the camera by a greater amount.  It is set to a radius in pixles for the `shake_amount` parameter.  The larger the number the more the camera will shake.
+You can increase the intensity of the shake by displacing the camera by a greater amount.  It is set to a radius in pixles for the `shake_amount` parameter.  The larger the number the more the camera will shake. This example increases the `shake_amount` to `55` pixels.
 
 https://user-images.githubusercontent.com/5504953/235301666-43839912-6d43-4d25-b2ed-9335caa72f7e.mp4
 
@@ -82,6 +82,20 @@ https://user-images.githubusercontent.com/5504953/235301666-43839912-6d43-4d25-b
 
 ##### `Step 7.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+`screen_shake(cheap, shake_amount, shake_rot_amount, shake_length, octave, harmonic, smooth, seed)`
+
+The next parameter is `shake_rot_amount` which sets the rotation of the camera in degrees°.  This number should be kept small as it can be pretty disorienting and violent.  Use it cautiously.  The default is set to `1°`.
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+`screen_shake(cheap, shake_amount, shake_rot_amount, shake_length, octave, harmonic, smooth, seed)`
+
+Now the `shake_length` which is the length in seconds and `octave` work together.  Please note that if you are using the cheap shake (`cheap` set to `true`) then `octave` will have no effect.  The longer the `shake_length` the more number of `octave` can be accomodated.  There is a function called `function num_of_octaves(total, octaves)` in which you pass the total amount of time in frames (seconds x room_speed) and the largest number of octaves you want and it returns the most amount of octaves possible. Each octave adds a set of points if there is room (needs to be at least one point between each random position to lerp through).
+
+
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
