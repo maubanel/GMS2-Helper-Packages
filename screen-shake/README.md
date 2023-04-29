@@ -38,7 +38,7 @@ This packages comes with multiple files.  You should have an **obj_shake** objec
 * **get_active_camera**
 * **scr_easaes**
 * **scr_noise_rng**
-* **screnn_shake**
+* **screen_shake**
 
 There are mostly helper functions and you can do everything through the `screen_shake()` function.
 
@@ -48,32 +48,22 @@ There are mostly helper functions and you can do everything through the `screen_
 
 ##### `Step 3.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-The simplest execution is to just call `screen_shake()` without passing any parameters (the default parameters are indicated above). THe shake will last for half a second, have a radius of 10 pixels, will shake 10 times and will have an angle tilt of 0.3°. You can trigger it based on any event, I wired it up to a button press just to test the functionality by pressing the space bar.
+The simplest execution is to just call `screen_shake()` without passing any parameters. The shake will use the more expensive algorithm (looks better), will have a shake radius of 30 pixels, a shake rotation of 1°, a shake that will last for one second, with 5 octaves, harmonics of `0.3`, smooth transition between random points and a random seed of `0` . You can trigger it based on any event, I wired it up to a button press just to test the functionality by pressing the space bar. 
 
 ![call screen_shake](images/callScreenShake.png)
+
+##### `Step 4.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice the screen shakes for a second.
 
 ![default camera shake in game](images/DefaultSS.gif)
 
-##### `Step 4.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-You can override the defaults by passing parameters to the function. 
-
-`screen_shake(cheap, shake_amount, shake_rot_amount, shake_length, octave, harmonic, smooth, seed)`
-
-There are two techniques, one which is very efficient.
-
-![camera shake in game](images/customParams.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`PCKGS`| :small_orange_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. You can play with different parameters to get different effects.
-
-https://user-images.githubusercontent.com/5504953/229501118-5c76a026-ca53-40da-a83c-ebaeb6e764d4.mp4
 
 ![](../images/line2.png)
 
