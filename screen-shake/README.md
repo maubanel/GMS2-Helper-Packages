@@ -86,6 +86,8 @@ https://user-images.githubusercontent.com/5504953/235301666-43839912-6d43-4d25-b
 
 The next parameter is `shake_rot_amount` which sets the rotation of the camera in degrees°.  This number should be kept small as it can be pretty disorienting and violent.  Use it cautiously.  The default is set to `1°`.
 
+https://user-images.githubusercontent.com/5504953/235302262-e72df5a6-ad53-4c6e-b808-a92029e43457.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
