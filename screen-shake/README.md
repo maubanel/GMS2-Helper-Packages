@@ -98,9 +98,34 @@ Now the `shake_length` which is the length in seconds and `octave` work together
 
 https://user-images.githubusercontent.com/5504953/235302236-68e20e43-bdeb-4820-939b-dcfb9f34048d.mp4
 
+![](../images/line2.png)
+
+##### `Step 9.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+`screen_shake(cheap, shake_amount, shake_rot_amount, shake_length, octave, harmonic, smooth, seed)`
+
+The `harmonic` parameter is only for when we are using lerping when `cheap` is set to `false`.  It affects how much each octave effects the curve.  For a numnber greater than `1` it decreases the effect of each octave and for a setting of less than `1` it decreases it.  I would not exceed a range of `.1` to `2` but it is personal choice.
+
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
+
+##### `Step 10.`\|`PCKGS`| :large_blue_diamond:
+
+`screen_shake(cheap, shake_amount, shake_rot_amount, shake_length, octave, harmonic, smooth, seed)`
+The `smooth` parameter onlh works when `cheap` is set to `false`.  It smooths out the transitions between octaves.  So either it is a sudden change or a smoothed curve.
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 12.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+The final parameter of `seed` changes the random points in the curve. So if you don't like the way it shakes but all the other parameters are how you like it, change the seed until you find that right one!
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: 
 
 You can also download this sample project if you want to see it in action: [Screen Shake Sample](../sample-projects/ScreenShakeSample.zip).
 
