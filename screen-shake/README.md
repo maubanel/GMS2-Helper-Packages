@@ -76,7 +76,7 @@ https://user-images.githubusercontent.com/5504953/235301013-a2aa0c9b-17ff-4f73-8
 `screen_shake(cheap, shake_amount, shake_rot_amount, shake_length, octave, harmonic, smooth, seed)`
 You can increase the intensity of the shake by displacing the camera by a greater amount.  It is set to a radius in pixles for the `shake_amount` parameter.  The larger the number the more the camera will shake.
 
-https://user-images.githubusercontent.com/5504953/235301524-702bee2a-ac1f-4b34-8e5e-bcafdb7e3adf.mp4
+https://user-images.githubusercontent.com/5504953/235301666-43839912-6d43-4d25-b2ed-9335caa72f7e.mp4
 
 ![](../images/line2.png)
 
