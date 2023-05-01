@@ -14,7 +14,7 @@ I have included 5 custom cameras that extend the basic functionality found in **
 * `zone_lag_cam_create(player_id)`
 * `platformer_lag_cam_create((player_id))`
 
-For most of these all you need to do is call the function and pass it the instance ID of the character you want the camera to follow and it should work.
+For most of these all you need to do is call the function and pass it the instance ID of the character you want the camera to follow and it should work. 
 
 <br>
 
@@ -22,7 +22,7 @@ For most of these all you need to do is call the function and pass it the instan
 
 ##### `Step 1.`\|`PCKGS`|:small_blue_diamond:
 
-Download the [custom_cameras.yymps](../packages/custom_cameras.yymps) from this repository. Import the packge into the game you want to use it in and select **Tools | Import Local Package**. Press the <kbd>Add All</kbd> button then press the <kbd>Import</kbd> button.  
+Download the [custom_cameras.yymps](../packages/custom_cameras.yymps) from this repository. Import the packge into the game you want to use it in and select **Tools | Import Local Package**. Press the <kbd>Add All</kbd> button then press the <kbd>Import</kbd> button.  This package comes with everything you need that includes 6 scripts and 5 objects.  You do not need to include any of these objects in the level calling the script is all you need to do.
 
 ![download custom_cameras.yymps](images/importPackage.png)
 
