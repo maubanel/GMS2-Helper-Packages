@@ -50,7 +50,11 @@ https://user-images.githubusercontent.com/5504953/235547733-65725f97-91c8-4695-8
 
 ##### `Step 4.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+`current_camera = center_cam_create(player_id, [clamp_cam])`
+
+There is one optional parameter boolean `clamp_cam`.  It defaults to `true`.  This stops the camera from showing outside the playable area.  If set to `false` then it will follow the character right to the edge of the level.
+
+
 
 ![](../images/line2.png)
 
