@@ -34,7 +34,7 @@ The first camera is one that keeps the player dead center of the screen.  In any
 
 `current_camera = center_cam_create(player_id, [clamp_cam])`
 
-You need to pass it the instance of the player object you want the camera to follow.  In this case I can use `obj_player` as there is only a single instance of this character in the level.
+You need to pass it the instance of the player object you want the camera to follow.  In this case I can use `obj_player` as there is only a single instance of this character in the level. This function will create a camera and return the id if you want to further manipulate it.
 
 ![call center cam](images/CenterCam.png)
 
