@@ -82,13 +82,20 @@ https://user-images.githubusercontent.com/5504953/235548177-949c5e85-a85c-4c9f-9
 
 ##### `Step 7.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+`center_lag_cam_create(player_id, [clamp_edges], [cam_distance], [max_cam_speed], [cam_lag])`
+
+The next parameter that is uniqu is `max_cam_speed`.  This is the most a camera can move in pixels per frame.  The lower the number the faster the camera will reposition.  For really twitchy games you want this to be small.  For a calm RPG you might want a slower camera so the number should be higher.
+
 https://user-images.githubusercontent.com/5504953/235548161-86a1af20-6f05-441b-b42f-a506a83fa8c1.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+`center_lag_cam_create(player_id, [clamp_edges], [cam_distance], [max_cam_speed], [cam_lag])`
+
+The final parameter is `cam_lag` which is a scalar between `.01` and `1`.  This adds springiness to the camera as it gets lower.  A value of `1` will have no lag and a value of `.01` might have too much lag and if you player moves fast might move off screen.  Finding the right value is key here.
+
 
 ![](../images/line2.png)
 
