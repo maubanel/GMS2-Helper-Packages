@@ -44,7 +44,7 @@ You need to pass it the instance of the player object you want the camera to fol
 
 When you press the <kbd>Play</kbd> button you will see that the camera keeps the player dead center the entire time.
 
-https://user-images.githubusercontent.com/5504953/235547614-3bbc1f7b-fcbf-4edc-b668-2474ea8d7924.mp4
+https://user-images.githubusercontent.com/5504953/235547733-65725f97-91c8-4695-82ec-70e5c6282ee9.mp4
 
 ![](../images/line2.png)
 
@@ -91,7 +91,7 @@ https://user-images.githubusercontent.com/5504953/235547614-3bbc1f7b-fcbf-4edc-b
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: 
-
+https://user-images.githubusercontent.com/5504953/235547614-3bbc1f7b-fcbf-4edc-b668-2474ea8d7924.mp4
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
