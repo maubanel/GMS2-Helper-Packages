@@ -96,6 +96,7 @@ https://user-images.githubusercontent.com/5504953/235548161-86a1af20-6f05-441b-b
 
 The final parameter is `cam_lag` which is a scalar between `.01` and `1`.  This adds springiness to the camera as it gets lower.  A value of `1` will have no lag and a value of `.01` might have too much lag and if you player moves fast might move off screen.  Finding the right value is key here.
 
+https://user-images.githubusercontent.com/5504953/235549534-a66d01e2-e579-467f-af24-6221a39efad0.mp4
 
 ![](../images/line2.png)
 
