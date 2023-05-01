@@ -60,7 +60,12 @@ https://user-images.githubusercontent.com/5504953/235547924-69589f72-ab46-4c8c-9
 
 ##### `Step 5.`\|`PCKGS`| :small_orange_diamond:
 
+The next camera is for games where we want to cheat the camera in front of the player and potentially add some elasticity to the camera (feels like it is on a spring or rubber band rather than on a stick).  
 
+`center_lag_cam_create(player_id, [clamp_edges], [cam_distance], [max_cam_speed], [cam_lag])`
+
+The only required parameter is the player_id for the character you would like to follow.  The default settings leads the camera to show 200 pixels in front of the player.
+ 
 https://user-images.githubusercontent.com/5504953/235548144-5e57d602-2c34-467a-ad75-86f947ec4fbc.mp4
 
 ![](../images/line2.png)
