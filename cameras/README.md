@@ -54,25 +54,26 @@ https://user-images.githubusercontent.com/5504953/235547733-65725f97-91c8-4695-8
 
 There is one optional parameter boolean `clamp_cam`.  It defaults to `true`.  This stops the camera from showing outside the playable area.  If set to `false` then it will follow the character right to the edge of the level.
 
-
+https://user-images.githubusercontent.com/5504953/235547924-69589f72-ab46-4c8c-903f-45230b4a1a39.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`PCKGS`| :small_orange_diamond:
 
-![alt_text](images/.png)
+
+https://user-images.githubusercontent.com/5504953/235548144-5e57d602-2c34-467a-ad75-86f947ec4fbc.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+https://user-images.githubusercontent.com/5504953/235548161-86a1af20-6f05-441b-b42f-a506a83fa8c1.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+https://user-images.githubusercontent.com/5504953/235548177-949c5e85-a85c-4c9f-9e70-b2605a157615.mp4
 
 ![](../images/line2.png)
 
