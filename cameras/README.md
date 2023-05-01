@@ -65,20 +65,24 @@ The next camera is for games where we want to cheat the camera in front of the p
 `center_lag_cam_create(player_id, [clamp_edges], [cam_distance], [max_cam_speed], [cam_lag])`
 
 The only required parameter is the player_id for the character you would like to follow.  The default settings leads the camera to show 200 pixels in front of the player.
- 
+
 https://user-images.githubusercontent.com/5504953/235548144-5e57d602-2c34-467a-ad75-86f947ec4fbc.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond:
 
-https://user-images.githubusercontent.com/5504953/235548161-86a1af20-6f05-441b-b42f-a506a83fa8c1.mp4
+`center_lag_cam_create(player_id, [clamp_edges], [cam_distance], [max_cam_speed], [cam_lag])`
+
+The `clamp_edges` parameer is the same on all the camera's created. So the first optional parameter unique to this camara is `cam_distance`.  It is how many pixels in front of the player you want the camera to center.  The default is set to `200` pixels.  If you set it to `0` you will have the player centered but will get a more natural camera feel with the lab built in.
+
+https://user-images.githubusercontent.com/5504953/235548177-949c5e85-a85c-4c9f-9e70-b2605a157615.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-https://user-images.githubusercontent.com/5504953/235548177-949c5e85-a85c-4c9f-9e70-b2605a157615.mp4
+https://user-images.githubusercontent.com/5504953/235548161-86a1af20-6f05-441b-b42f-a506a83fa8c1.mp4
 
 ![](../images/line2.png)
 
