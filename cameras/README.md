@@ -26,13 +26,17 @@ Download the [custom_cameras.yymps](../packages/custom_cameras.yymps) from this 
 
 ![download custom_cameras.yymps](images/importPackage.png)
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`PCKGS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+The first camera is one that keeps the player dead center of the screen.  In any game where enemies come in from all directions this is a good choice. You only need to call it once though and these scripts should **NOT** be called from **Step** events.  I called the first camera in a **Other | Game Start** event that will run for the entire game.
+
+`current_camera = center_cam_create(player_id, [clamp_cam])`
+
+You need to pass it the instance of the player object you want the camera to follow.  In this case I can use `obj_player` as there is only a single instance of this character in the level.
+
+![call center cam](images/CenterCam.png)
 
 ![](../images/line2.png)
 
