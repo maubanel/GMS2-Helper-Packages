@@ -122,6 +122,10 @@ https://user-images.githubusercontent.com/5504953/235649562-2f0388ce-dcd8-49c9-9
 
 ##### `Step 11.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: 
 
+`zone_lag_cam_create(player_id, [clamp_edges],[cam_lag], [zone_left], [zone_right], [zone_top], [zone_bottom])`
+
+The fourth cam is the same as the zone cam above with addition of a spring on the camera with the `cam_lag` parameter which makes the movement a bit more natural with eases in and out when starting and stopping. The `cam_lag` should be kept between `.01` and `1`.
+
 https://user-images.githubusercontent.com/5504953/235651235-e4ba836f-2947-4323-a115-1e66609eb852.mp4
 
 
