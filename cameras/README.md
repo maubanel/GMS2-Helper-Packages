@@ -151,8 +151,9 @@ https://user-images.githubusercontent.com/5504953/235649649-951b3278-873f-4d25-b
 
 ##### `Step 14.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-https://user-images.githubusercontent.com/5504953/235649679-a206eb43-9489-4891-b339-8707dd9f96c2.mp4
+`platformer_lag_cam_create(player_id, [clamp_edges],[cam_lag_h], [cam_lag_v], [zone_left], [zone_right])`
 
+You can also adjust `zone_left` and `zone_right` which is pixels to the left and the right to the player.  This allows a dead zone where small movements will not move the camera until the player leaves this zone.  You can adjust both sides for tactical reasons in what works best with the level design.
 
 https://user-images.githubusercontent.com/5504953/235547614-3bbc1f7b-fcbf-4edc-b668-2474ea8d7924.mp4
 
@@ -161,43 +162,12 @@ https://user-images.githubusercontent.com/5504953/235547614-3bbc1f7b-fcbf-4edc-b
 
 ##### `Step 15.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+You can download the [Custom Camera Sample Project](../sample-projects/Manual%20Cameras.zip) and give the various cameras a test drive and play with some of the parameters.
+
+![project sample for custom cameras](images/.png)
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`PCKGS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`PCKGS`| :large_blue_diamond: :large_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`PCKGS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
 
 ![](../images/line.png)
 
