@@ -74,7 +74,7 @@ https://user-images.githubusercontent.com/5504953/235548144-5e57d602-2c34-467a-a
 
 `center_lag_cam_create(player_id, [clamp_edges], [cam_distance], [max_cam_speed], [cam_lag])`
 
-The `clamp_edges` parameer is the same on all the camera's created. So the first optional parameter unique to this camara is `cam_distance`.  It is how many pixels in front of the player you want the camera to center.  The default is set to `200` pixels.  If you set it to `0` you will have the player centered but will get a more natural camera feel with the lab built in.
+`cam_distance` is the second optional parameter of the `center_lag_cam()` function.  It represents how many pixels in front of the player you want the camera to focus on.  The default is set to `200` pixels.  If you set it to `0` you will have the player centered but will get a more natural camera feel with the lab built in. This gives the player nose room to see more in front of the direction they are moving in.
 
 https://user-images.githubusercontent.com/5504953/235548177-949c5e85-a85c-4c9f-9e70-b2605a157615.mp4
 
