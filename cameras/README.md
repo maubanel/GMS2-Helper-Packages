@@ -141,6 +141,10 @@ https://user-images.githubusercontent.com/5504953/235649601-4a3457f4-beb3-4341-a
 
 ##### `Step 13.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+`platformer_lag_cam_create(player_id, [clamp_edges],[cam_lag_h], [cam_lag_v], [zone_left], [zone_right])`
+
+There are two separate lag values.  `cam_lag_h` is used for how fast the camera keeps with the player's horizontal movement speed. The `cam_lag_v` is how fast the camera moves vertically to snap to the current on ground platform position. Both these values should be kept between `.01` and `1`.
+
 https://user-images.githubusercontent.com/5504953/235649649-951b3278-873f-4d25-b397-551d43484e23.mp4
 
 ![](../images/line2.png)
