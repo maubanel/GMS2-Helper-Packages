@@ -134,7 +134,7 @@ https://user-images.githubusercontent.com/5504953/235651235-e4ba836f-2947-4323-a
 For a platformer
 
 https://user-images.githubusercontent.com/5504953/235547614-3bbc1f7b-fcbf-4edc-b668-2474ea8d7924.mp4
-![alt_text](images/.png)
+
 
 https://user-images.githubusercontent.com/5504953/235649601-4a3457f4-beb3-4341-aa56-7f395c5f681d.mp4
 
