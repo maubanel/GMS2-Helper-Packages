@@ -102,17 +102,28 @@ https://user-images.githubusercontent.com/5504953/235549534-a66d01e2-e579-467f-a
 
 ##### `Step 9.`\|`PCKGS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+`zone_cam_create(player_id, [clamp_edges], [zone_left], [zone_right], [zone_top], [zone_bottom])`
+
+The third camera is more like how the default camera behaves in **GameMaker** except we have a bit finer control on all four directions so we can have a more flexible dead zone.  This keeps the camera from moving as long as they are in the zone.  When the player moves out the camera moves to keep them on the edge of the zone.
+
 https://user-images.githubusercontent.com/5504953/235649528-c7300a5d-14e5-46a1-a48b-6d39b03c12bf.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`PCKGS`| :large_blue_diamond:
 
+`zone_cam_create(player_id, [clamp_edges], [zone_left], [zone_right], [zone_top], [zone_bottom])`
+
+The four parameters are how many pixels the camera can travel to the `zone_left` of center, `zone_right` of center, `zone_top` of center and `zone_bottom` of center.  I have drawn a representation of what the zone looks like based on the parameters below.
+
 https://user-images.githubusercontent.com/5504953/235649562-2f0388ce-dcd8-49c9-9de8-d7b8d8d521ff.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: 
+
+For a platformer
+
 https://user-images.githubusercontent.com/5504953/235547614-3bbc1f7b-fcbf-4edc-b668-2474ea8d7924.mp4
 ![alt_text](images/.png)
 
