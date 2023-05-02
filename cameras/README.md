@@ -164,10 +164,7 @@ https://user-images.githubusercontent.com/5504953/235547614-3bbc1f7b-fcbf-4edc-b
 
 You can download the [Custom Camera Sample Project](../sample-projects/Manual%20Cameras.zip) and give the various cameras a test drive and play with some of the parameters.
 
-![project sample for custom cameras](images/.png)
-
-![](../images/line2.png)
-
+![project sample for custom cameras](images/customProject.png)
 
 ![](../images/line.png)
 
