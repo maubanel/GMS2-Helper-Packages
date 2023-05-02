@@ -131,7 +131,9 @@ https://user-images.githubusercontent.com/5504953/235651235-e4ba836f-2947-4323-a
 
 ##### `Step 12.`\|`PCKGS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-For a platformer
+`platformer_lag_cam_create(player_id, [clamp_edges],[cam_lag_h], [cam_lag_v], [zone_left], [zone_right])`
+
+For a platformer we have a special camera that has camera lag and only adjusts the vertical position when the player is on the ground or going up in the air.  This creates a different feel that takes advantage of what a platformer might need to see ahead, and beneath the player while still keeping an interesting camera. There are 2 caveouts.  The player must be moving using `vspeed` and `hspeed` and not moving it on the x and y.  Since the camera is not moving when the player is not on the ground we need an `on_ground` boolean on the player object that tells the camera whether the player is on the ground or not. 
 
 https://user-images.githubusercontent.com/5504953/235649601-4a3457f4-beb3-4341-aa56-7f395c5f681d.mp4
 
